@@ -1,0 +1,731 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background: #fff;
+  }
+/*start universal style code here*/
+ .section-heading h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.section-heading h1::before,
+.section-heading h1::after {
+    content: "";
+    position: absolute;
+    bottom: -.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.5);
+}
+
+.section-heading h1::before {
+    width: 6rem;
+    height: 3px;
+    border-radius: .8rem;
+}
+
+.section-heading h1::after {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    bottom: -.8rem;
+}
+/*end universal style code here*/
+/*-----------banner section-------------*/
+#head
+{
+    background: url("../img/carousel-2.jpg") center no-repeat;
+    background-size: cover;	
+}
+#head{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#head .maintext h1
+{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    border-left:1px solid #fff;
+    padding-left: 19px;
+    letter-spacing: 4px;
+    font-size: 55px;
+}
+#head .mainbutton{
+    position: absolute;
+    left: 7%;
+    top: 55%;
+}
+#head p{
+    font-size: 15px
+}
+#head .social ul{
+    position: absolute;
+    top: 60%;
+    list-style: none;
+    left: 90%;
+}
+#head hr{
+    background: #fff;
+    width: 200px;
+    position: absolute;
+    top: 89%;
+}
+@media(max-width: 2000px)
+{
+    #head .social ul{
+        left: 90%;
+        line-height: 26px;
+    }
+    #head .social ul li span::after{
+       content: "";
+       height: 10vh;
+       width: 1px;
+       display: inline-block;
+       background: #fff;
+       margin-left: 7px;
+    }
+    #head .social ul li .lastline::after{
+       content: "";
+       height: 10vh;
+       width: 1px;
+       display: inline-block;
+       background: #fff;
+       margin-left: 7px;
+    }
+    #head hr{
+        left: 6%;
+        top: 91%;
+    }
+}
+@media(max-width: 810px)
+{
+    #head .social ul{
+        left: 86%;
+    }
+    #head .maintext h1
+    {
+        font-size: 40px;
+    }
+}
+ /*End Banner Section*/
+
+/*-----Strat section 1------*/
+.placeBox
+{
+	position: relative;
+	max-width: 300px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.placeBox .imgBox
+{
+	width: 100%;
+	height: 100%
+}
+.placeBox .imgBox img
+{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.placeBox .content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.placeBox .content h3
+{
+	position: relative;
+	margin: 0;
+	padding: 10px;
+	background:rgba(0,0,0,0.95);
+	color:#fff;
+	font-size: 20px;
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+}
+.placeBox .content h3 span
+{
+	font-weight: 500;
+	font-size: 16px;
+}
+/*End Section 1*/
+
+/*Srat Section index Contact Part*/
+.indexcontact
+{
+	background:url(../images/bg-registration-form-2.jpg) center no-repeat;
+	background-size: cover;
+}
+/*End Section index Contact Part*/
+
+
+/*start top lawyer section*/
+
+#toplawyer a
+{
+    text-decoration: none;
+}
+#toplawyer img
+{
+    height: 100px;
+    width: 100px;
+    padding: 7px 10px 7px 10px;
+}
+#toplawyer p 
+{
+    font-size: 13px;
+    color: #fff;
+}
+#toplawyer h6
+{
+    font-size: 15px;
+}
+/*End top lawyer section*/
+
+/*-----------------------Start NewsLetter Section--------------------*/
+.newsletter
+{
+    background: url("../images/bg-registration-form-2.jpg") center no-repeat;
+    background-size: cover;
+}
+/*End Newslatter section*/
+
+/*-------------------------Start footer------------------------------------ */
+/*-----------------footer logo -------------*/
+#footer
+{
+    background: #fff;
+    background-attachment: fixed;
+}
+.footer_grid h2  {
+    font-weight: 700;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    display: inline-block;
+    color: #c69963;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+}
+.footer_grid a:hover
+{
+	text-decoration:none;
+}
+/*.sub-des2 {
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.7em;
+    color: #999;
+    letter-spacing: 7px;
+    font-weight: 600;
+    text-shadow: 3px 1px 3px rgba(78, 73, 73, 0.21);
+}*/
+/*-------------Start footer navigation-------------*/
+.footer_list li {
+    list-style: none;
+}
+
+.footer_list li span.fab {
+    color: #000;
+    padding-right: 1em;
+}
+
+.footer_list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    display: block;
+    font-weight: 600;
+    margin: 1.8em 0;
+    color:#000;
+}
+
+.footer_list li a:hover {
+    color: #2dce89;
+}
+.footer_list li:last-child {
+    margin-bottom: 0;
+}
+h3.fallowUs {
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: .7em;
+    line-height: 30px;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+/*-----------------End footer navigation------------*/
+.move-top span {
+    color: #000;
+    text-align: center;
+    border: none;
+    line-height: 2em;
+}
+.rinfo a
+{
+    text-decoration: none;
+}
+/*-------------Start social icons------------------*/
+.social_grid {
+    padding: 2em 0;
+    border-top: 1px solid #edeff1;
+    margin: 3em 0 0 0;
+    text-align: center;
+    border-bottom: 1px solid #edeff1;
+}
+.social_grid a:hover
+{
+    text-decoration:none;
+}
+.social-icons ul {
+    padding: 0;
+    margin: 0;
+}
+.social-icons ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.social-icons ul li a {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+.social-icons ul li a span.fab.fa-facebook-f {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin-right: 4px;
+    color: #3b5998;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social-icons ul li a:hover span.fab.fa-facebook-f {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #3b5998;
+    color: #FFFFFF;
+    transform:rotate(-360deg);
+    border-radius: 100px;
+}
+.social-icons ul li a span.fab.fa-twitter {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin-right: 4px;
+    color: #1da1f2;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social-icons ul li a:hover span.fab.fa-twitter {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #1da1f2;
+    color: #FFFFFF;
+    transform:rotate(-360deg);
+    border-radius: 100px;
+}
+.social-icons ul li a span.fab.fa-google {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin-right: 4px;
+    color: #ea4335;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social-icons ul li a:hover span.fab.fa-google {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #ea4335;
+    color: #FFFFFF;
+    transform:rotate(-360deg);
+    border-radius: 100px;
+}
+/*End Footer section*/
+
+
+/*Start Contact Page*/
+#contact
+{
+    background: url('../img/2019-06_Contact-Us.jpg');
+    background-size: cover;
+    height: 65vh;
+}
+#contact h1
+{
+    font-size: 50px;
+    color: #fff;
+}
+#contact p
+{
+    color: #fff;
+    font-size: 19px;
+}
+.contactform img
+{
+    padding: 0px; 
+    border-radius: 5px;
+ }
+.web-info i
+{
+    font-size: 30px;
+    padding: 25px;
+}
+.web-info h1
+{
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.web-info p,
+.web-info address
+{
+    font-size: 15px;
+}
+/*End Contact Page*/
+
+
+/*Start Genral appointment Page css*/
+#appointment .howit ul .list
+{
+    margin-top: -12px;
+}
+#appointment .howit span::after
+{
+      content: "";
+       height: 4vh;
+       width: 1px;
+       display: inline-block;
+       background: #ced4da;
+       margin-left: -15px;
+       margin-top: -3px
+}
+#search{
+    background: url(../images/bg-registration-form-2.jpg) center no-repeat;
+    background-size: cover;
+}
+#practicscard .card .card-body .bottom-text a i
+{
+    font-size: 12px;
+}
+#practicscard .card .card-body .bottom-text a
+{
+    transition: all ease 1s; 
+}
+#practicscard .card .card-body .bottom-text a:hover
+{
+    margin-right: -10px;
+    transition: 1s;
+}
+
+/*End Genral appointment Page css*/
+
+
+
+/*Start Genral Lawyer Profile css*/
+#lprofile
+{
+    margin-top: -260px;
+}
+#lprofile .card-body .card
+{
+    border:none;
+}
+#lprofile .card-body .card h5
+{
+    font-size: 15px;
+}
+#lprofile .card-body .card h6
+{
+    font-size: 13px;
+}
+#lprofile .card-body .card span
+{
+    font-size: 13px
+}
+#lprofile .card-body  table
+{
+    font-size: 13px;
+}
+#lprofile .card-body .answere a
+{
+    font-size: 15px;
+}
+#lprofile .card-body .answere p
+{
+    font-size: 12px;
+    color: gray;
+}
+/*End Genral Lawyer Profile css*/
+
+
+#signup h3
+{
+  letter-spacing: 3px;
+}
+#signup i{
+    width: 16px;
+}
+#signup .face
+{
+    background: #3b5998;
+    border:none;
+}
+#signup .go
+{
+    background: #DD4B39;
+    border:none;
+}
+#signup .signintext small
+{
+    font-size: 14px;
+}
+/*Start Lawyer Profile section*/
+#user
+{
+    background: #121319;
+    
+}
+#lawyerprofile .img img
+{
+    width: 90px; 
+    height: 90px;
+}
+#lawyerprofile .img div 
+{
+    width: 90px; 
+    height: 90px;
+    position: absolute;
+    transition: 0.7s;
+}
+#lawyerprofile .img div:hover
+{
+    background: rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: 0.4s;
+}
+#lawyerprofile .img a
+{
+    line-height: 90px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+#lawyerprofile  table
+{
+    font-size: 13px;
+}
+#lawyerprofile .card-body .card
+{
+   background: transparent;
+   border:none;
+   border-radius: none;
+   transition: .7s;
+}
+#lawyerprofile .card-body .card h6
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+#lawyerprofile .card-body .card p
+{
+    font-size: 13px;
+}
+#lawyerprofile .card-body .card:hover
+{
+  box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+  transition:  .4s;
+}
+#lawyerprofile .card-footer
+{
+    font-size: 12px;
+    color: gray;
+}
+#lawyerprofile #profileDisplay
+{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: block;
+}
+/*End lawyer Profile section*/
+
+
+/*Start all answere page*/
+#allanswere .content p
+{ 
+  font-size: 13px;
+}
+#allanswere .rightcard .imag1
+{
+  background: linear-gradient(rgba(16,29,44,.8),rgba(16,29,44,.8)),url("../images/case-1.jpg") no-repeat center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+#allanswere .rightcard .imag2
+{
+  background:linear-gradient(rgba(16,29,44,.8),rgba(16,29,44,.8)), url("../images/img_1.jpg") no-repeat center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+#allanswere .rightcard .imag3
+{
+  background:linear-gradient(rgba(16,29,44,.8),rgba(16,29,44,.8)), url("../images/profile-cover.jpg") no-repeat center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+/*End all answere page*/
+
+/*Start about page*/
+#ourteam a
+{
+    text-decoration: none;
+}
+#ourteam img
+{
+    height: 100px;
+    width: 100px;
+    padding: 7px 10px 7px 10px;
+}
+#ourteam p 
+{
+    font-size: 13px;
+    color: #fff;
+}
+#ourteam h6
+{
+    font-size: 15px;
+}
+/*End about page*/
+#question .content p
+{
+  font-size: 14px;
+}
+#question .card .carddown a
+{
+    font-weight: bold; 
+    font-size: 15px;
+    margin-top: -5px;
+}
+#question .card small
+{
+    font-size: 13px;
+}
+#ourteam .card .social-icon ul {
+    padding: 0;
+    margin: 0;
+}
+#ourteam .card .social-icon ul li {
+    display: inline-block;
+}
+
+#ourteam .card .social-icon ul li a {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+#ourteam .card .social-icon ul li a span.fab.fa-facebook-f {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin-right: 4px;
+    color: #3b5998;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+#ourteam .card .social-icon ul li a:hover span.fab.fa-facebook-f {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #3b5998;
+    color: #FFFFFF;
+    transform:rotate(-360deg);
+    border-radius: 100px;
+}
+#ourteam .card .social-icon ul li a span.fab.fa-twitter {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin-right: 4px;
+    color: #1da1f2;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+#ourteam .card .social-icon ul li a:hover span.fab.fa-twitter {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #1da1f2;
+    color: #FFFFFF;
+    transform:rotate(-360deg);
+    border-radius: 100px;
+}
+#ourteam .card .social-icon ul li a span.fab.fa-google {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin-right: 4px;
+    color: #ea4335;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+#ourteam .card .social-icon ul li a:hover span.fab.fa-google {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #ea4335;
+    color: #FFFFFF;
+    transform:rotate(-360deg);
+    border-radius: 100px;
+}
