@@ -153,7 +153,7 @@ include 'config.php';
                   </div>
                 </div>
               </div>
-               <div class="col-md-4 col-6 col-lg-3 mb-2">
+              <div class="col-md-4 col-6 col-lg-3 mb-2">
               <div class="card border-0 shadow">
                 <div class="row justify-content-center">
                       <div class="col-md-12 text-center card-profile-image">
@@ -165,6 +165,56 @@ include 'config.php';
                      <div class="col-md-12 text-center justify-content-center">
                         <h4 class="mt-1 text-dark">Garv Sharma</h4>
                         <p class="text-dark mb-2 h6">Designer, Bijnor</p>
+                         <div class="social-icon">
+                            <ul>
+                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-google"></span></a></li>
+                            </ul>
+                       </div>
+                      </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+       <div class="col-md-4 col-6 col-lg-3 mb-2">
+              <div class="card border-0 shadow">
+                <div class="row justify-content-center">
+                      <div class="col-md-12 text-center card-profile-image">
+                       <img src="img/profile_pic.png" class="img-fluid  rounded-circle">
+                      </div>
+                   </div>
+                <div class="card-body mt-5">
+                   <div class="row">
+                     <div class="col-md-12 text-center justify-content-center">
+                        <h4 class="mt-1 text-dark">Geetanjli Chubey</h4>
+                        <p class="text-dark mb-2 h6">Designer, Lucknow</p>
+                        <div class="social-icon">
+                            <ul>
+                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-google"></span></a></li>
+                            </ul>
+                       </div>
+                      </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 col-lg-3 mb-2">
+              <div class="card border-0 shadow">
+                <div class="row justify-content-center">
+                      <div class="col-md-12 text-center card-profile-image">
+                       <img src="img/profile_pic.png" class="img-fluid  rounded-circle">
+                      </div>
+                   </div>
+                <div class="card-body mt-5">
+                   <div class="row">
+                     <div class="col-md-12 text-center justify-content-center">
+                        <h4 class="mt-1 text-dark"> Annat Vikaram Singh</h4>
+                        <p class="text-dark mb-2 h6">UI/UX Designer, Bijnor</p>
                          <div class="social-icon">
                             <ul>
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>

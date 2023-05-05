@@ -28,7 +28,7 @@ if(isset($_POST['status']))
 
 <section class="py-5 card border-0 bg-gradient-secondary">
   <div class="container">
-    <h1 class="text-center text-darker" style="margin-top: 110px"> <span class="text-default">Payment Done Successfully. </span></h1>
+    <h1 class="text-center text-darker" style="margin-top: 110px"> <span class="text-default">Appointment Booked Successfully. </span></h1>
     <p class="text-center"> Details Are Below.</p>
   </div>
 </section>

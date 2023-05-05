@@ -122,61 +122,110 @@ include("userheader.php");
       </div>
     </div>
   </div>
-</section>
-<section id="ourteam" class="bg-secondary ">
+<section id="ourteam" class="bg-secondary">
   <div class="container text-dark">
     <p class="text-center text-dark" style="font-size: 35px; ">The Team</p>
-    <p class="mb-5 text-dark text-center" style="font-size: 14px;font-weight: 400">Lawyer Online run by a team. The team member come from various background in programming, strategy and legal. </p>
+    <p class="mb-5 text-dark text-center" style="font-size: 14px;font-weight: 400">Home Tutor run by a team. The team member come from various background in programming, strategy and legal. </p>
     <div class="row justify-content-center">
        <div class="col-md-4 col-6 col-lg-3 mb-2">
-          <div class="card border-0 shadow">
-            <div class="row justify-content-center">
-              <div class="col-md-12 text-center card-profile-image">
-               <img src="images/person_2.jpg" class="img-fluid  rounded-circle">
-              </div>
-            </div>
-            <div class="card-body mt-5">
-               <div class="row">
-                 <div class="col-md-12 text-center justify-content-center">
-                    <h4 class="mt-1 text-dark">Rashid Malik</h4>
-                    <p class="text-dark mb-2 h6">Desinger, Lucknow</p>
-                    <div class="social-icon">
-                      <ul>
-                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fab fa-google"></span></a></li>
-                      </ul>
+              <div class="card border-0 shadow">
+                <div class="row justify-content-center">
+                      <div class="col-md-12 text-center card-profile-image">
+                       <img src="img/53.jpg" class="img-fluid  rounded-circle">
+                      </div>
+                   </div>
+                <div class="card-body mt-5">
+                   <div class="row">
+                     <div class="col-md-12 text-center justify-content-center">
+                        <h4 class="mt-1 text-dark">Malik mohammd Rashid</h4>
+                        <p class="text-dark mb-2 h6">Backend Developer, Lucknow</p>
+                        <div class="social-icon">
+                            <ul>
+                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-google"></span></a></li>
+                            </ul>
+                       </div>
+                      </div>
                    </div>
                   </div>
-               </div>
+                </div>
               </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-6 col-lg-3 mb-5">
-          <div class="card border-0 shadow mb-3">
-            <div class="row justify-content-center">
-              <div class="col-md-12 text-center card-profile-image">
-               <img src="images/person_2.jpg" class="img-fluid  rounded-circle">
-              </div>
-            </div>
+              <div class="col-md-4 col-6 col-lg-3 mb-2">
+              <div class="card border-0 shadow">
+                <div class="row justify-content-center">
+                      <div class="col-md-12 text-center card-profile-image">
+                       <img src="images/person_2.jpg" class="img-fluid  rounded-circle">
+                      </div>
+                   </div>
                 <div class="card-body mt-5">
-                  <div class="row">
+                   <div class="row">
                      <div class="col-md-12 text-center justify-content-center">
-                        <h4 class="mt-1 text-dark">Amarjeet Srivastva</h4>
-                        <p class="text-dark mb-2 h6">D.B.A., Gonda</p>
+                        <h4 class="mt-1 text-dark">Garv Sharma</h4>
+                        <p class="text-dark mb-2 h6">Designer, Bijnor</p>
                          <div class="social-icon">
                             <ul>
-                              <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                              <li><a href="#"><span class="fab fa-google"></span></a></li>
+                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-google"></span></a></li>
                             </ul>
-                        </div>
+                       </div>
                       </div>
+                   </div>
                   </div>
                 </div>
-          </div>
+              </div>
         </div>
-    </div>
+        <div class="row justify-content-center mt-5">
+       <div class="col-md-4 col-6 col-lg-3 mb-2">
+              <div class="card border-0 shadow">
+                <div class="row justify-content-center">
+                      <div class="col-md-12 text-center card-profile-image">
+                       <img src="img/profile_pic.png" class="img-fluid  rounded-circle">
+                      </div>
+                   </div>
+                <div class="card-body mt-5">
+                   <div class="row">
+                     <div class="col-md-12 text-center justify-content-center">
+                        <h4 class="mt-1 text-dark">Geetanjli Chubey</h4>
+                        <p class="text-dark mb-2 h6">Designer, Lucknow</p>
+                        <div class="social-icon">
+                            <ul>
+                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-google"></span></a></li>
+                            </ul>
+                       </div>
+                      </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 col-lg-3 mb-2">
+              <div class="card border-0 shadow">
+                <div class="row justify-content-center">
+                      <div class="col-md-12 text-center card-profile-image">
+                       <img src="img/profile_pic.png" class="img-fluid  rounded-circle">
+                      </div>
+                   </div>
+                <div class="card-body mt-5">
+                   <div class="row">
+                     <div class="col-md-12 text-center justify-content-center">
+                        <h4 class="mt-1 text-dark"> Annat Vikaram Singh</h4>
+                        <p class="text-dark mb-2 h6">UI/UX Designer, Bijnor</p>
+                         <div class="social-icon">
+                            <ul>
+                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-google"></span></a></li>
+                            </ul>
+                       </div>
+                      </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+        </div>
   </div>
 </section>
 

@@ -26,8 +26,8 @@ $row6=mysqli_fetch_array($result6);
   <div class="container-fluid col-xl-11 col-md-12 col-sm-12 col-lg-12 mb-5">
     <div class="row justify-content-center ">
         <div class="mt-5 col-md-6 col-xl-6 col-sm-9">
-          <h1 class="mt-5 ml-3 text-dark" style="font-size: 30px">Find The Best LAWYER in Inida</h1>
-          <p class="mt-3 ml-3">You Can Also Find The Best Lawyer in India Using Serach Form , Which is Given Below.</p>
+          <h1 class="mt-5 ml-3 text-dark" style="font-size: 30px">Find The Best Teacher in Inida</h1>
+          <p class="mt-3 ml-3">You Can Also Find The Best Teacher in India Using Serach Form , Which is Given Below.</p>
           <div class="howit ml-3">
             <h2 class="mt-5 mb-3 text-dark">How it works?</h2>
             <ul  class="mt-4" style="font-size: 17px">
@@ -53,7 +53,7 @@ $row6=mysqli_fetch_array($result6);
 <!-- Start Search section -->
 <section id="search" class="">
   <div class="container py-5"><br/>
-      <h1 class="text-center text-dark">Find The Best Lawyer In India</h1>
+      <h1 class="text-center text-dark">Find The Best Teacher In India</h1>
         <div class="row justify-content-center">
              <div class="col-xl-12 col-lg-12 searchform ">
                <form class="form-inline mt-5 mb-5 justify-content-center" action="usersearch.php" method="POST">
@@ -88,7 +88,7 @@ $row6=mysqli_fetch_array($result6);
     <div class="row mb-5">
         <div class="offset-sm-2 col-sm-8">
           <div class="headerText text-center">
-            <h1 class="text-dark mt-3">Meet Best Lawyers</h1>
+            <h1 class="text-dark mt-3">Meet Best Teachers</h1>
             <p class="text-muted mb-3" style="font-size: 15px">Listings, code snippets, and code in the text in this book are in monospaced font.
                This  your editor would.</p>
           </div>
@@ -126,7 +126,7 @@ $row6=mysqli_fetch_array($result6);
        }?>
        </div>
       <div class="row justify-content-center">
-        <a href="userviewalllawyer.php"><button class="btn btn-dark btn-sm">View more Lawyer</button></a>
+        <a href="userviewalllawyer.php"><button class="btn btn-dark btn-sm">View more Teachers</button></a>
       </div>
     </div>
  </section>

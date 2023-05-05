@@ -220,7 +220,7 @@ if (isset($_REQUEST['la_id'])) {
         </div>
 
         <div class="col-md-4">
-          <div class="card shadow border-0">
+          <!-- <div class="card shadow border-0">
             <div class="card-body border-0">
               <h2 class="mt-2 mb-4 text-center text-dark">Legal Help now</h2>
               <form class="form-group" action="" method="POST">
@@ -230,12 +230,12 @@ if (isset($_REQUEST['la_id'])) {
                 <button class="btn btn-success mt-3 mb-2 btn-sm float-right">Submit <i class="fa fa-arrow-right ml-1" style="font-size: 11px"></i></button>
               </form>
             </div>
-          </div>
+          </div> -->
           <div class="row">
             <div class="col-md-12">
-              <div class="card shadow mt-5 border-0">
+              <div class="card shadow  border-0">
                 <div class="card-body  border-0" style="height:400px">
-                  <h3 class="mt-3 text-center text-dark ">Office Location</h3>
+                  <h3 class="mt-3 text-center text-dark ">Location</h3>
                   <div class="col mt-1">
                   <table cellpadding="8" class="table-responsive">
                     <tr>
